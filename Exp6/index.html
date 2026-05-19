@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Management </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container ">
+         <h1>Contact Management</h1>
+         <div class="form Box ">
+            <input type="text" id ="name" placeholder="Enter name ">
+             <input type="text" id ="phone" placeholder="Enter number ">
+             <button onclick="addContact()">Add Contact</button>
+         </div>
+           <div class="search Box ">
+            <input type="text" id ="search" placeholder="Search Contact ">
+             <button onclick="searchContact()">Search</button>
+         </div>
+            <h2>Contact List </h2>
+            <ul id ="contactList"> </ul>
+    </div>
+    <script src ="app.js"></script>
+</body>
+</html>
