@@ -15,7 +15,7 @@ class StudentAttendance {
   }
 }
 
-void main() {
+void main() { 
   // Get input from user
   print("Enter Student Name:");
   String? name = stdin.readLineSync();
